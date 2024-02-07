@@ -1,4 +1,8 @@
 /* Reset styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -7,6 +11,7 @@ h5,
 h6,
 p {
   margin: 0;
+  font-weight: 400;
 }
 
 p:last-child {
@@ -32,4 +37,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+address {
+  font-style: normal;
 }
