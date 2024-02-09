@@ -111,6 +111,9 @@
     padding-right: 50px;
     gap: 32px;
   }
+  .advantages-foto {
+    flex-shrink: 0;
+  }
   .advantages-list {
     display: flex;
     flex-direction: row;
