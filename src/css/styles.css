@@ -7,6 +7,7 @@
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./yacht.css');
+@import url('./advantages.css');
 @import url('./footer.css');
 
 :root {
@@ -15,8 +16,8 @@
   line-height: 24px;
   font-weight: 400;
 
-  color: #FBFBFB;
-  background-color: #0E1823;
+  color: #fbfbfb;
+  background-color: #0e1823;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
