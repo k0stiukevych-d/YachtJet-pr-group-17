@@ -23,8 +23,6 @@
     background-color: transparent;
 }
 
-.header {}
-
 .header-line {
     display: flex;
     justify-content: space-between;
