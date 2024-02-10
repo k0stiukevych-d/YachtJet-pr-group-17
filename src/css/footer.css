@@ -162,6 +162,10 @@
     margin-top: 96px;
   }
 
+  .footer-list-item {
+    width: 91px;
+  }
+
   .container-logo-nav-soc {
     flex-direction: row;
     justify-content: space-between;
