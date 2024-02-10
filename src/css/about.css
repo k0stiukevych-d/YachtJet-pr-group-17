@@ -1,0 +1,158 @@
+.about {
+    padding: 50px 0;
+  }
+
+  .container-ab {
+    min-width: 320px;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-container {
+    border-radius: 25px;
+    background-color: #fbfbfb;
+  
+  }
+  
+  .ab-text-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    padding: 40px 20px 0 20px;
+  }
+  
+  .about-text-title {
+font-weight: 500;
+font-size: 28px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #1b414b;
+margin-bottom: 40px;
+  }
+  .add-to-about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  .about-title {
+font-weight: 400;
+font-size: 18px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #1b414b;
+
+  }
+  
+  .about-list {
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: -0.02em;
+color: #040306;
+opacity: 0.4;
+  }
+  
+  .about-pics {}
+  
+  .port-div-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .about-foto {
+    border-radius: 24px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .container-ab {
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    .about-text-title{
+      font-size: 48px;
+      width: 536px;
+      margin-bottom: 50px;
+    }
+    .add-to-about{
+      max-width: 389px;
+      margin-bottom: 50px;
+    }
+
+    .ab-text-cont{
+      padding-top: 50px;
+      padding-left: 32px;
+  
+    }
+  }
+  
+  @media screen and (min-width:1280px) {
+    .container-ab {
+      max-width: 1280px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  
+    .ab-text-cont {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+  
+      margin-bottom: 100px;
+  
+      padding: 50px 50px 0 50px;
+    }
+  
+    .about-text-title {
+     width: 537px;
+  
+    }
+  
+    .add-to-about {
+      display: flex;
+      flex-direction: column;
+      max-width: 354px;
+      gap: 20px;
+      margin-bottom: 0;
+    }
+  
+    .about-title {
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      color: #1b414b;
+    }
+  
+    .about-list {
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      color: #040306;
+  
+      opacity: 0.4;
+    }
+  
+    .about-foto {
+      height: 470px;
+    }
+  }
+  
+  @media screen and (min-width:1440px) {
+    .container-ab {
+      max-width: 1440px;
+    }
+    .add-to-about{
+      max-width: 404px;
+    }
+
+  }
