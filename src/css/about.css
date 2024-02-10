@@ -1,5 +1,8 @@
 .about {
-    padding: 50px 0;
+    position: relative;
+    z-index: 2;
+    margin-top: -60px;
+    padding-bottom: 80px;
   }
 
   .container-ab {
@@ -56,9 +59,7 @@ letter-spacing: -0.02em;
 color: #040306;
 opacity: 0.4;
   }
-  
-  .about-pics {}
-  
+
   .port-div-img {
     position: relative;
     overflow: hidden;
@@ -70,6 +71,11 @@ opacity: 0.4;
   
   
   @media screen and (min-width: 768px) {
+    .about { 
+      margin-top: -67px;
+      padding-bottom: 150px;
+    }
+
     .container-ab {
       max-width: 768px;
       padding-left: 32px;
@@ -93,6 +99,9 @@ opacity: 0.4;
   }
   
   @media screen and (min-width:1280px) {
+    .about {
+      margin-top: -35px;  
+    }
     .container-ab {
       max-width: 1280px;
       padding-left: 50px;
