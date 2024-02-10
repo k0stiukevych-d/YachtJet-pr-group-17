@@ -55,7 +55,7 @@
 }
 
 .footer-logo > a {
-  margin-right: 37px;
+  /* margin-right: 37px; */
   color: #fbfbfb;
   font-size: 14px;
   font-style: normal;
@@ -125,6 +125,10 @@
     width: 355px;
     height: 412px;
   }
+
+    .footer-logo>a {
+      margin-right: 37px;
+    }
 }
 
 @media screen and (min-width: 768px) {
