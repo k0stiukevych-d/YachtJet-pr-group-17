@@ -18,7 +18,7 @@
 
   
   <script type="module" crossorigin src="/YachtJet-pr-group-17/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/YachtJet-pr-group-17/assets/index-cd032309.css">
+  <link rel="stylesheet" href="/YachtJet-pr-group-17/assets/index-1bdd7693.css">
 </head>
 
 <body>
@@ -346,66 +346,46 @@
   </div>
 </section>
 
-    <section class="rent-a-yacht/section">  
-    <div class="rent-container">
-      <div class="form-wrap">
-        <h2 class="main-phrase">Rent a yacht now</h2>
-          
-        <form class="form_yacht">
-          <div class="form-field">
-           
-            <input type="text" id="fname" name="fullname" placeholder="Full name"
-            pattern="^.* .*$" class="input_line">
+    <section class="rent-a-yacht-section">
+  <div class="rent-container">
+    <div class="form-wrap">
+      <h2 class="main-phrase">Rent a yacht now</h2>
 
-            <input type="email" id="email" name="email" placeholder="Email"
-            pattern=".+@example\.com" size="30" required class="input_line">
+      <form class="form_yacht">
+        <div>
+          <div class="form-field">
+
+            <input type="text" id="fname" name="fullname" placeholder="Full name" pattern="^.* .*$" class="input_line">
+
+            <input type="email" id="email" name="email" placeholder="Email" required class="input_line">
 
             <input type="tel" id="phone" name="phone" placeholder="Phone number"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} required"  class="input_line">
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} required" class="input_line">
 
             <textarea id="comment" class="input_line-area" name="comment" placeholder="Comment"
-            pattern="[a-z]{1,30}(,[a-z]{1,30})*"></textarea >
+              pattern="[a-z]{1,30}(,[a-z]{1,30})*"></textarea>
 
-            <button type="button" class="button-style">Send</button>  
           </div>
-          </form>
-      </div>
-    
-      <div class="yacht-picture">
-        <picture class="yacht-pic">
-          <!-- Desktop screen -->
-        
-          <source
-            media="(min-width: 1158px)"
-            srcset="/YachtJet-pr-group-17/assets/rent-lap-1px-min-227f74ad.jpg 1x, /YachtJet-pr-group-17/assets/rent-lap-2px-min-58d6072b.jpg 2x"
-            type="image/jpg"
-          />
-          <!-- Tablet screen -->
-        
-          <source
-            media="(min-width: 768px)"
-            srcset="/YachtJet-pr-group-17/assets/rent-compress-tab-1x-min-ed802e3a.jpg 1x, /YachtJet-pr-group-17/assets/rent-compress-tab-2x-min-3a9e1fed.jpg 2x"
-            type="image/jpg"
-          />
-          <!-- Mobile screen -->
-        
-          <source
-            media="(max-width: 767px)"
-            srcset="/YachtJet-pr-group-17/assets/rent-mob-1x-min-d168629d.jpg 1x, /YachtJet-pr-group-17/assets/rent-mob-2x-min-f6010da1.jpg 2x"
-            type="image/jpg"
-          />
-          <img
-            class="card-img"
-            src="/YachtJet-pr-group-17/assets/rent-mob-1x-min-d168629d.jpg"
-            alt="YachtJet"
-            width="450"
-            height="294"
-            loading="lazy"
-          />
-        </picture>
-      </div>
+
+          <button type="submit" class="button-style">Send</button>
+        </div>
+      </form>
     </div>
-  </section>
+
+    <div class="yacht-picture">
+      <picture class="yacht-pic">
+        <source srcset="/YachtJet-pr-group-17/assets/rent-1440-1x-min-56f41f45.jpg 1x, /YachtJet-pr-group-17/assets/rent-1440-2x-min-49b8c28a.jpg 2x" media="(min-width: 1440px)" />
+        <source srcset="
+                      ../img/rent-img/rent-1280-1x-min.jpg 1x,
+                                          ./img/rent-img/rent-1280-2x-min.jpg 2x
+                                        " media="(min-width: 1280px)" />
+        <source srcset="/YachtJet-pr-group-17/assets/rent-tab-1x-min-29c3faba.jpg 1x, /YachtJet-pr-group-17/assets/rent-tab-2x-min-6edfa517.jpg 2x" media="(min-width: 768px)" />
+        <source srcset="/YachtJet-pr-group-17/assets/rent-mob-1x-min-a7631cb2.jpg 1x, /YachtJet-pr-group-17/assets/rent-mob-2x-min-70f38ca2.jpg 2x" media="(max-width: 767px)" />
+        <img class="card-img" src="/YachtJet-pr-group-17/assets/rent-1440-1x-min-56f41f45.jpg" alt="YachtJet" width="768" height="534" />
+      </picture>
+    </div>
+  </div>
+</section>
     <section class="reviews">
     <div class="container">
         <h2 class="reviews-title">YachtJet take pride in providing the best possible service and experience to our
