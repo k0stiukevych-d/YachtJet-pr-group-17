@@ -1,0 +1,60 @@
+<section class="rent-a-yacht/section">  
+    <div class="rent-container">
+      <div class="form-wrap">
+        <h2 class="main-phrase">Rent a yacht now</h2>
+          
+        <form class="form_yacht">
+          <div class="form-field">
+           
+            <input type="text" id="fname" name="fullname" placeholder="Full name"
+            pattern="^.* .*$" class="input_line">
+
+            <input type="email" id="email" name="email" placeholder="Email"
+            pattern=".+@example\.com" size="30" required class="input_line">
+
+            <input type="tel" id="phone" name="phone" placeholder="Phone number"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} required"  class="input_line">
+
+            <textarea id="comment" class="input_line-area" name="comment" placeholder="Comment"
+            pattern="[a-z]{1,30}(,[a-z]{1,30})*"></textarea >
+
+            <button type="button" class="button-style">Send</button>  
+          </div>
+          </form>
+      </div>
+    
+      <div class="yacht-picture">
+        <picture class="yacht-pic">
+          <!-- Desktop screen -->
+        
+          <source
+            media="(min-width: 1158px)"
+            srcset="./images/rent-lap-1px-min.jpg 1x, ./images/rent-lap-2px-min.jpg 2x"
+            type="image/jpg"
+          />
+          <!-- Tablet screen -->
+        
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/rent-compress-tab-1x-min.jpg 1x, ./images/rent-compress-tab-2x-min.jpg 2x"
+            type="image/jpg"
+          />
+          <!-- Mobile screen -->
+        
+          <source
+            media="(max-width: 767px)"
+            srcset="./images/rent-mob-1x-min.jpg 1x, ./images/rent-mob-2x-min.jpg 2x"
+            type="image/jpg"
+          />
+          <img
+            class="card-img"
+            src="./images/rent-mob-1x-min.jpg"
+            alt="Ноутбук"
+            width="450"
+            height="294"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </section>
