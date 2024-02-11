@@ -61,12 +61,12 @@
     background: #fbfbfb;
 }
 
-.rewiews-box-img {
+.reviews-box-img {
     border-radius: 50%;
     margin: 0 auto;
 }
 
-.rewiews-box-title {
+.reviews-box-title {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.1;
@@ -116,7 +116,7 @@
         margin-right: auto;
     }
 
-    .riviews-person-wrap {
+    .reviews-person-wrap {
         margin-top: 75px;
     }
 
@@ -128,7 +128,7 @@
         width: 320px;
     }
 
-    .rewiews-box-title {
+    .reviews-box-title {
         margin-top: 24px;
         color: #040306;
     }
@@ -157,7 +157,7 @@
     }
 
     @media screen and (max-width: 1439px) {
-        .riviews-person-wrap {
+        .reviews-person-wrap {
             gap: 26px;
         }
     }
