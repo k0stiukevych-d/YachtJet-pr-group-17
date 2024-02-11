@@ -19,6 +19,7 @@
     font-variation-settings:
         "slnt" 0;
     background-color: #0E1823;
+    padding-top: 40px;
 }
 
 .reviews-title {
@@ -91,6 +92,10 @@
    ========= */
 
 @media screen and (min-width: 768px) {
+    .reviews {
+        padding-top: 75px;
+    }
+
     .container {
         min-width: 768px;
         padding-left: 32px;
