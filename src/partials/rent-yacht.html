@@ -1,0 +1,47 @@
+<section class="rent-a-yacht-section" id="section-rent-yacht">
+  <div class="rent-container">
+    <div class="form-wrap">
+      <h2 class="main-phrase">Rent a yacht now</h2>
+
+      <form class="form_yacht">
+        <div>
+          <div class="form-field">
+
+            <input type="text" id="fname" name="fullname" placeholder="Full name" pattern="^.* .*$" class="input_line">
+
+            <input type="email" id="email" name="email" placeholder="Email" required class="input_line">
+
+            <input type="tel" id="phone" name="phone" placeholder="Phone number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4} required" class="input_line">
+
+            <textarea id="comment" class="input_line-area" name="comment" placeholder="Comment"
+              pattern="[a-z]{1,30}(,[a-z]{1,30})*"></textarea>
+
+          </div>
+
+          <button type="submit" class="button-style">Send</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="yacht-picture">
+      <picture class="yacht-pic">
+        <source srcset="
+                      ./img/rent-img/rent-1440-1x-min.jpg 1x,
+                                          ./img/rent-img/rent-1440-2x-min.jpg 2x
+                                        " media="(min-width: 1440px)" />
+        <source srcset="
+                      ./img/rent-img/rent-1280-1x-min.jpg 1x,
+                                          ./img/rent-img/rent-1280-2x-min.jpg 2x
+                                        " media="(min-width: 1280px)" />
+        <source srcset="./img/rent-img/rent-tab-1x-min.jpg 1x, 
+                      ./img/rent-img/rent-tab-2x-min.jpg 2x" media="(min-width: 768px)" />
+        <source srcset="
+                      ./img/rent-img/rent-mob-1x-min.jpg  1x,
+                                          ./img/rent-img/rent-mob-2x-min.jpg 2x
+                                        " media="(max-width: 767px)" />
+        <img class="card-img" src="./img/rent-img/rent-1440-1x-min.jpg" alt="YachtJet" width="768" height="534" />
+      </picture>
+    </div>
+  </div>
+</section>
